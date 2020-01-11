@@ -9,7 +9,7 @@ class JFrameEx extends JFrame{
 		super("스윙 연습");
 		//윈도우 제목표시줄
 		setLayout(new FlowLayout());
-		//레이아웃 메니저 설정, 생략가능
+		//레이아웃 메니저 설정
 		add(new JButton("버튼1"));
 		add(new JButton("버튼2"));
 		add(new JButton("버튼3"));
