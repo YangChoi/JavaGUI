@@ -1,3 +1,6 @@
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
 import javax.swing.JFrame;
 
 class JFrameEx extends JFrame{
@@ -5,6 +8,14 @@ class JFrameEx extends JFrame{
 	JFrameEx(){
 		super("스윙 연습");
 		//윈도우 제목표시줄
+		setLayout(new FlowLayout());
+		//레이아웃 메니저 설정, 생략가능
+		add(new JButton("버튼1"));
+		add(new JButton("버튼2"));
+		add(new JButton("버튼3"));
+		add(new JButton("버튼4"));
+		add(new JButton("버튼5"));
+		//버튼 생성해 컨테이너에 추가 
 		setSize(500,200);
 		//프레임 크기
 		setLocation(100, 100);
